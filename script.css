@@ -27,8 +27,11 @@ li{
 span{
     float: right;
 }
-
-button{
+.button{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
     display: grid;
     margin: auto;
     background: green;
@@ -37,6 +40,7 @@ button{
     border: none;
     border-radius: 20px;
     font-size: 1em;
+    row-gap: 5px;
 }
 button:hover{
     text-decoration-line: underline;

@@ -41,8 +41,13 @@ function generateList (){
 
 window.addEventListener("load", generateList);
 
-const button = document.querySelector(".sort-btn");
-button.addEventListener("click", () =>{
+const button1 = document.querySelector(".sort-btn");
+button1.addEventListener("click", () =>{
     courses.sort((a,b) => a.price - b.price);
+    generateList();
+})
+const button2 = document.querySelector(".desc-btn");
+button2.addEventListener("click", () =>{
+    courses.sort((a,b) => b.price - a.price);
     generateList();
 })
