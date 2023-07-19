@@ -1,6 +1,6 @@
 var courses = [
     {
-        name: "Complete Ract JS Course",
+        name: "Complete React JS Course",
         price: "2.1"
     },
     {
